@@ -10,7 +10,7 @@ public class Aluno extends Pessoa{
     }
 
     public Aluno (String nome, String nivel, String idade) throws ParseException {
-        this(nome, nivel, idade, "", 0 , 0);
+        this(nome, nivel, idade, " ", 0 , 0);
     }
 
     public String getNivel() {
@@ -23,7 +23,7 @@ public class Aluno extends Pessoa{
 
     @Override
     public String toString() {
-        return super.toString()+" nivel:" + nivel+ "}";
+        return super.toString()+" nivel:" + nivel+ "]";
     }
 
     

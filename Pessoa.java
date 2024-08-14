@@ -88,6 +88,6 @@ public class Pessoa {
     @Override
     public String toString() {
         return "Pessoa [nome=" + nome + ", idade=" + calcularIdade(idade) + ", genero=" + genero + ", altura=" + altura + ", peso="
-                + peso + "]";
+                + peso;
     }
 }

@@ -44,7 +44,5 @@ public class Main {
        for (Aluno aluno : b.getAlunos()) {
            System.out.println(aluno.toString());
        }
-       
-
     }
 }
