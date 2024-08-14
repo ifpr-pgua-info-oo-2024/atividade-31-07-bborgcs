@@ -25,7 +25,7 @@ public class Main {
        
        for (Aluno aluno : a.getAlunos()) {
            System.out.println(aluno.toString());
-       }
+       } 
 
        System.out.println("\n\n\n     OBJETO 2 ");
        Academia b = new Academia("caopi", "lgbhfd, 77", "41 3434-5677");

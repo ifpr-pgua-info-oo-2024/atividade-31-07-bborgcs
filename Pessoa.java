@@ -70,10 +70,10 @@ public class Pessoa {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
         return simpleDateFormat.parse(idade);
     }
-
+ 
     public static String convertDateToString(Date idade) throws ParseException {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
-        return simpleDateFormat.format(idade);
+        return simpleDateFormat.format(idade); 
     }
 
     public static int calcularIdade (Date idade) {

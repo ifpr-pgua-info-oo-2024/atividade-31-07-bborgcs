@@ -1,7 +1,7 @@
 import java.text.ParseException;
 
 public class Aluno extends Pessoa{
-
+ 
     private String nivel;
     
     public Aluno (String nome, String nivel, String idade, String genero, double altura, double peso) throws ParseException {

@@ -7,7 +7,7 @@ public class Academia {
     private String nome;
     private String endereco;
     private String telefone;
-
+ 
     List<Aluno> alunos;
 
     public Academia(String nome, String endereco, String telefone){
